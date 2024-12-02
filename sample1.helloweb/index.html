@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITM-2K24: Youth Fest</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            max-width: 1200px; /* Limit width */
+        }
+
+        /* Banner Section (Left Side) */
+        .banner {
+            width: 50%;
+            height: 100%;
+            background-image: url('./teck.jpeg'); /* Your banner image path */
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Content Section (Right Side) */
+        .content {
+            width: 50%;
+            padding: 40px;
+            box-sizing: border-box;
+            background-color: white;
+            height: 100%; /* Ensure full height */
+            overflow-y: auto;
+        }
+
+        /* Main Title */
+        .content h1 {
+            font-size: 2.5rem;
+            color: #283593;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .events ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.2rem;
+        }
+
+        .events li {
+            margin-bottom: 10px;
+        }
+
+        .events li strong {
+            color: #283593;
+        }
+
+        /* Button */
+        .register-btn {
+            background-color: #ff5722;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.2rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .register-btn:hover {
+            background-color: #e64a19;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .banner, .content {
+                width: 100%;
+                height: 50vh;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .content h1 {
+                font-size: 2rem;
+            }
+
+            .content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Banner Section (Left Side) -->
+        <div class="banner">
+            <!-- Banner image is set using CSS background-image property -->
+        </div>
+
+        <!-- Content Section (Right Side) -->
+        <div class="content">
+            <h1>Inter College Competition CITM-2K24: Youth Fest</h1>
+            <p>Compucom Institute of Technology and Management is thrilled to host CITM-2K24: Youth Fest, an exhilarating inter-college competition celebrating talent, creativity, and innovation on 6th and 7th December 2024.</p>
+
+            <h2>Event Highlights</h2>
+            <div class="events">
+                <ul>
+                    <li><strong>Sports Events:</strong> Showcase your skills in Volleyball, Table Tennis, Carrom, and Chess.</li>
+                    <li><strong>Cultural Events:</strong> Unleash your creativity with Mehendi Design, Rangoli, and Poster Design.</li>
+                    <li><strong>Technical Events:</strong> Ignite your intellect in the Quiz, present innovations in the Project Display, or share knowledge through Paper Presentations.</li>
+                </ul>
+            </div>
+
+            <p>Join us for two days of spirited competition and camaraderie. Let the best talents shine!</p>
+
+            <!-- Registration Button -->
+            <a href="https://forms.gle/VjWymXTFrrjtLe5W9" target="_blank" class="register-btn">Register Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
